@@ -1,0 +1,31 @@
+.rowFlex {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    &.spacing{ 
+        .col{
+            padding: 0 10px;
+        }
+    }
+}
+.colFlex {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.flex-zeroFlex { 
+    flex: 0;
+}
+.space-between {
+    justify-content: space-between;
+}
+.row-flex-end {
+    justify-content: flex-end;
+}
+.row-centered {
+    justify-content: center;
+}
+
+.align-center {
+    align-items: center;
+}
